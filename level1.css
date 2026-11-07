@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: bolder larger songti;
+    background-color:white;
+    display: flexbox;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}  
+.card{
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photo{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.photo:hover{
+    transform: scale(1.05);
+}
+a:hover{
+    color: yellowgreen;
+}

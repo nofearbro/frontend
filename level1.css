@@ -6,7 +6,7 @@
 body{
     font: bolder larger songti;
     background-color:white;
-    display: flexbox;
+    display:flex;
     justify-content:center;
     align-items: center;
     min-height: 100vh;
